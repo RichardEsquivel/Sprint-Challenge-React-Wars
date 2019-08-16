@@ -28,7 +28,8 @@ export const Description = styled.div`
 `;
 
 export const Header = styled.h1`
-	font-size: 1rem;
+	font-size: 2rem;
+	font-style:italic;
 	font-weight: bolder;
 	color: #B8E2F2;
 	text-align: center;

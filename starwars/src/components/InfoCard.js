@@ -6,7 +6,7 @@ function InfoCard(props) {
 	return (
 		<InfoCards>
 			<Header>Name: {props.name}</Header>
-			<div>Height: {props.height} </div>
+			<div>Height in cm: {props.height} </div>
 			<div>Mass in kg: {props.mass}</div>
 			<div>Birth Year: {props.birth_year}</div>
 			<div>Hair Color: {props.hair_color}</div>

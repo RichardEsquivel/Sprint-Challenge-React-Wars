@@ -11,8 +11,7 @@ function App() {
 	useEffect(() => {
 		axios.get('https://swapi.co/api/people/?format=json')
 			.then(response => {
-				const goodData = response.data.results;
-				setPeople(goodData);
+				setPeople(response.data.results);
 			});
 	}, []);
 
