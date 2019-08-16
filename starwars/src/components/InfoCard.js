@@ -3,17 +3,20 @@ import { Header, Description, Image, ImageContainer, TextContainer } from './sty
 
 //all components can take props even if not used
 function InfoCard(props) {
-	console.log(props);
 	return (
-		<div>
-			<Header>{props.title}</Header>
-			<ImageContainer>
-				<Image src={props.url} />
-			</ImageContainer>
-			<TextContainer>
-				<p>{props.explanation}</p>
-			</TextContainer>
-		</div>
+		<InfoCard
+
+			{props.name}
+			{props.height}
+			{props.mass}
+			{props.birth_year}
+			{props.hair_color}
+			{props.skin_color}
+			{props.eye_color}
+			{props.gender}
+			{props.homeworld} />
+
+
 	);
 }
 
