@@ -25,14 +25,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+	React is a library used to create UI components standalone pieces of code which can be utilized and used in a modular fashion in multiple parts of the application or modified if needed.
+
 
 - [ ] What does it mean to _think_ in react?
 
+	To think in react is to design interfaces into modular components that update depending on state of other components that are passing and updating data through props.
+
 - [ ] Describe state.
+	State holds data for React state can be utilized as a trigger for component side effects.
 
 - [ ] Describe props.
+	Props can pass along properties from parent components to child components in a mannger known as prop drilling. This can be used to pass along data from one modular component to the next.
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+	A side effect is anything outside of the scope of the function being executed that breaks the same input same output relationship of a function. Retrieving data from an API, manual manipulation of the Document Object Model (DOM). We can manage side effects through the use of the useEffect() hook which can allow us to have state update based on parameters we determined within the useEffect hook.
 
 ## Project Set Up
 
